@@ -10,5 +10,13 @@ Always looking for ways to simplify. Open an issue or PR if you have any ideas t
 - Linter with webhook on commit. Code in your upstream repo will always be consistent.
 - Build system for when you're ready to ship.
 
+## Directory layout
+
+    .
+    ├── build                   # Compiled files for testing.
+    ├── dist                    # Compiled files for distribution.
+    ├── src                     # Source files
+    └── examples                # Show off your project
+
 
 
